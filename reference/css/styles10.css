@@ -1,0 +1,90 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+  margin: 0; /* removes default space */
+  font-weight: normal; /* removes default bold style */
+}
+h1 {
+  font-size: 75px;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5; /* adjusts space between the lines */
+}
+a {
+  color: #9D6381;
+}
+a:hover {
+  color: #CECCCC;
+}
+header,
+section,
+footer {
+  padding: 100px 150px;
+}
+.loves,
+footer {
+  text-align: center;
+}
+strong {
+  color: #9D6381;
+}
+img {
+  border-radius: 50%;
+}
+
+
+/* PAGE HEADER
+-----------------------------------------*/
+header {
+  background: orange;
+}
+header h1 {
+  font-size: 100px;
+}
+header h2 {
+  font-size: 32px;
+}
+
+
+/* PANDA SECTION
+-----------------------------------------*/
+img {
+  float: right;
+  margin-left: 20px;
+}
+
+/* OTHER SECTION
+-----------------------------------------*/
+
+
+/* LIONS SECTION
+-----------------------------------------*/
+.lions {
+  background: yellow;
+}
+.lions img {
+  width: 250px;
+  margin: 15px;
+}
+
+
+/* FOOTER - contact info
+-----------------------------------------*/
+footer {
+  background: purple;
+  color: #CECCCC;
+}
